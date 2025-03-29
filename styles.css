@@ -1,0 +1,133 @@
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(105, 98, 98);
+    margin: 0;
+    padding: 0;
+}
+
+section.CSS {
+    background-color: rgb(7, 136, 175);
+    width: 80%;  /* Ajusta el ancho para que no ocupe toda la pantalla */
+    max-width: 1200px; /* Máximo ancho para mantener el diseño ordenado */
+    margin: 20px auto; /* Centra la sección en la pantalla */
+    padding: 20px; /* Espaciado interno para mejorar la apariencia */
+    border-radius: 10px; /* Bordes redondeados para un mejor diseño */
+    box-shadow: 0px 4px 8px rgba(2, 27, 255, 0.795); /* Sombra para resaltar */
+}
+section.JavaScript {
+    background-color: rgb(255, 238, 0);
+    width: 80%;  
+    max-width: 1200px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgb(255, 251, 5); 
+}
+.Menu ul {
+    display: flex;
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(192, 178, 178);
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgb(0, 60, 255); /* Sombra para resaltar */
+}
+
+.Menu a {
+    display: block;
+    padding: 15px 25px;
+    background-color: rgb(0, 162, 255);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.Menu a:hover {
+    background-color: rgb(141, 73, 197);
+    color: rgb(113, 77, 212)
+}
+
+.Menu ul li {
+    position: relative;
+    text-align: center;
+}
+
+.Menu ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #4ddf0a;
+    text-align: center;
+    min-width: 150px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 4px 8px rgba(255, 0, 0, 0.897);
+    transition: opacity 0.3s ease-in-out;
+}
+
+.Menu ul li ul li {
+    display: block;
+}
+
+.Menu ul li ul li a {
+    color: white;
+    padding: 10px 20px;
+}
+
+.Menu ul li ul li a:hover {
+    background-color: #000000;
+}
+
+.Menu ul li:hover ul {
+    display: block;
+}
+.CSS img, .JavaScript img{
+    width: 100px;
+    height: 100px;
+    border-radius: cover;
+    text-align: center;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth; /* Hace que el desplazamiento desde el menu sea lento*/
+}
+section.Tabla {
+    background-color: rgb(238, 237, 237);
+    width: 80%;  
+    max-width: 1200px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(255, 0, 0, 0.664); 
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+section.Tabla {
+    overflow-x: auto;
+}
+ 
+footer {
+    background-color: rgb(255, 255, 255);
+    width: 80%;  
+    max-width: 1200px; 
+    margin: 20px auto; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(255, 0, 0, 0.76); 
+    text-align:  center;
+}
